@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+}
+
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.password-strength-indicator{
+    font-size: 12px;
+    display: inline-block;
+    height: 20px;
+    min-width: 20%;
+    text-align: center;
+    transition: 1s;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.password-strength-indicator.very-weak{
+    background: #cf0000;
+    width: 20%;
+}
+
+.password-strength-indicator.weak{
+    background: #f6891f;
+    width: 40%;
+}
+
+.password-strength-indicator.mediocre{
+    background: #eeee00;
+    width: 60%;
+}
+.password-strength-indicator.strong{
+    background: #99ff33;
+    width: 80%;
+}
+.password-strength-indicator.very-strong{
+    background: #22cf00;
+    width: 100%;
+}
